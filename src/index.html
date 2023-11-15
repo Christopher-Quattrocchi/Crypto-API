@@ -1,25 +1,31 @@
 <html lang="en-US">
 
 <head>
-  <title>Weather</title>
+  <title>Crypto Project</title>
 </head>
 
 <body>
   <div class="container">
-    <h1>Get Weather Conditions From Anywhere!</h1>
-    <p>To get the current weather conditions for a location, please enter the city name or the city and state separated
-      by a comma. Here are three examples:</p>
+    <h1>Crypto Info</h1>
+    <p>Get information about various ....</p>
     <pre>
-      Portland
-      Atlanta, Georgia
-      cairo
+      Bitcoin
+      Monero
+      etc
     </pre>
     <form>
-      <label for="location">Enter a location:</label>
-      <input id="location" type="text" name="location">
-      <button type="submit" class="btn-success" id="weatherLocation">Get Current Temperature and Humidity</button>
+      <label for="cryptocurrency">Enter a cryptocurrency:</label>
+      <input id="cryptocurrency" type="text" name="cryptocurrency">
+
+     
+      <button type="submit" class="btn-success" id="getCurrency">Get Current Cryptocurrency Exchange Rates</button>
     </form>
+
+    <a href="https://coingecko.com">Powered by Coin Gecko</a>
     <p id="showResponse"></p>
+    <canvas id="myChart" width="400" height="400"></canvas>
+    <div id="output"></div>
+    
   </div>
 </body>
 

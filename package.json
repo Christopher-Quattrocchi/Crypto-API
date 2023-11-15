@@ -1,5 +1,5 @@
 {
-  "name": "open-weather-api",
+  "name": "crypto-project",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -28,6 +28,7 @@
     "webpack-dev-server": "3.11.3"
   },
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "chart.js": "^2.9.4"
   }
 }
